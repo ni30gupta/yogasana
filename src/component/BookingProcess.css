@@ -1,0 +1,9 @@
+.submit-btn:focus {
+  background-color: black !important;
+  color: white;
+}
+
+.timing-chart {
+  display: flex;
+  flex-direction: row;
+}

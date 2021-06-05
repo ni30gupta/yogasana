@@ -1,0 +1,24 @@
+[
+    {
+        "id": 101,
+        "imgsrc": "../images/photo111.png",
+        "name": "Nitin Yogacharya",
+        "description": "Indian Chiropractic"
+        
+        
+    },
+    {
+        "id": 102,
+        "imgsrc": "../images/divya.jpg",
+        "name": "Divya Bajpai",
+        "description": "Yoga teacher"
+    },
+    {
+        "id": 103,
+        "imgsrc": "../images/divya.jpg",
+        "name": "Vedricha Rathore ",
+        "description": "some small paragraph"
+    }
+
+    
+]

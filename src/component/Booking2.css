@@ -1,0 +1,13 @@
+input[type="radio"] {
+  border: 0px;
+  width: 100%;
+  height: 1.3em;
+}
+
+* {
+  text-align: center;
+}
+
+.selectedClass {
+  background-color: aqua;
+}

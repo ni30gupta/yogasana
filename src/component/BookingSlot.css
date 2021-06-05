@@ -1,0 +1,28 @@
+td {
+  cursor: pointer;
+  /* background-color: antiquewhite; */
+  text-align: center;
+}
+
+th,
+p {
+  text-align: center;
+}
+
+.bigButton {
+  padding: 0.5rem 31rem !important;
+  margin-bottom: 2rem;
+}
+
+td:hover {
+  background-color: lightgreen !important;
+  /* color: aqua; */
+}
+
+.changed {
+  background-color: green !important;
+}
+
+.changed:hover {
+  background-color: green !important;
+}

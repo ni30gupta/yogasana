@@ -1,0 +1,180 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.heading {
+  letter-spacing: 3px;
+  position: relative;
+  top: 0px;
+  font-size: 5rem;
+}
+
+.socialIcon {
+  position: relative;
+  top: -165px;
+  left: 10px;
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialIcon > :nth-child(1):hover {
+  color: #d6249f;
+  cursor: pointer;
+}
+
+.socialIcon > :nth-child(2):hover {
+  color: #3b5998;
+  cursor: pointer;
+}
+
+.socialIcon > :nth-child(3):hover {
+  color: #00acee;
+  cursor: pointer;
+}
+.profilePhoto {
+  width: 50%;
+}
+.kriyas {
+  /* border-radius: 50%; */
+  /* background-color: antiquewhite; */
+  padding: 2rem;
+}
+
+.video {
+  margin-top: 10rem !important;
+}
+
+#root > div:nth-child(2) > div.video > div:nth-child(2) > div.col-lg-8 {
+  text-align: right;
+}
+
+.pricing > div > div {
+  box-shadow: 0 1px 2px rgba(41, 9, 225, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.pricing > div > div:hover {
+  box-shadow: 0 5px 15px rgba(8, 10, 151, 0.3);
+}
+
+/* making button link white */
+#root
+  > main
+  > div
+  > div
+  > div.container.row
+  > div.profileSnap.col-lg-5
+  > div
+  > button
+  > a,
+#root > main > div > div > div.pricing.container > button > a {
+  color: white;
+  text-decoration: none;
+}
+
+element.style {
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+/* .bigButton {
+  padding: 0.5rem 31rem !important;
+  margin-bottom: 2rem;
+ 
+} */
+
+/* Media Query */
+@media (max-width: 576px) {
+  .heading {
+    font-size: 1rem;
+    position: relative;
+    top: 0px;
+    font-size: 1.3rem;
+  }
+
+  .profilePhoto {
+    /* position: relative; */
+    top: -25px !important;
+    width: 100px !important;
+  }
+
+  .profileNexperience > h4 {
+    font-size: 1.2rem;
+  }
+
+  .profileNexperience > h6 {
+    font-size: 0.8rem;
+  }
+
+  .profileSnap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .profileBtn {
+    padding: 0.1rem 1rem !important;
+  }
+
+  .longDesc {
+    text-align: justify !important;
+  }
+
+  .kriyas > div {
+    margin-bottom: 20px;
+  }
+
+  .video {
+    margin-top: 1rem !important;
+  }
+
+  #root
+    > div:nth-child(2)
+    > div.video.container-fluid
+    > div
+    > div.d-flex.align-items-center.col-lg-4.col-11
+    > h4 {
+    font-size: 1rem;
+  }
+
+  .bottomVideo {
+    flex-direction: column-reverse;
+  }
+
+  .pricing > h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 2rem;
+  }
+
+  .pricing > div > :nth-child(1) {
+    margin-bottom: 2rem;
+  }
+
+  .pricing > div {
+    margin-top: 1rem !important;
+  }
+
+  .socialIcon {
+    position: relative;
+    top: -65px;
+    left: 10px;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .socialIcon > svg {
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+}
