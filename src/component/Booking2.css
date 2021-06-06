@@ -4,9 +4,9 @@ input[type="radio"] {
   height: 1.3em;
 }
 
-* {
+/* * {
   text-align: center;
-}
+} */
 
 .selectedClass {
   background-color: aqua;

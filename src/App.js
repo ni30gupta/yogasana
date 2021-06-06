@@ -13,6 +13,7 @@ import BookingProcess from "./component/BookingProcess";
 import Booking2 from "./component/Booking2";
 import PaymentPage from "./pages/PaymentPage";
 import Login from "./component/Login";
+import Signup from "./component/Signup";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/payment">
             <Protected cmp={PaymentPage} />
           </Route>
+          <Route exact path="/signup" component={Signup} />
 
           {/* <Route exact path="/payment" component={PaymentPage} /> */}
           <Route exact path="/booking" component={Booking2} />

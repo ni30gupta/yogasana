@@ -57,7 +57,7 @@ function Header() {
               </Link>
             </button>
             <button type="button" class="btn btn-warning">
-              Sign-up
+              <Link to={"/signup"}>Signup</Link>
             </button>
           </div>
         </div>
